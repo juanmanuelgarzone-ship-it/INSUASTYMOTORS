@@ -1,0 +1,22 @@
+{
+  "name": "insuasty-motors-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicacion Android Insuasty Motors - Capacitor",
+  "scripts": {
+    "build": "node scripts/preparar-web.mjs",
+    "android:add": "npm run build && npx cap add android",
+    "android:sync": "npm run build && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "7.4.5",
+    "@capacitor/android": "7.4.5",
+    "@capacitor/browser": "7.0.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

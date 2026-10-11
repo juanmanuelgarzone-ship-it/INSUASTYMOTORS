@@ -1,0 +1,8 @@
+{
+  "appId": "com.insuastymotors.app",
+  "appName": "Insuasty Motors",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#061326"
+  }
+}
