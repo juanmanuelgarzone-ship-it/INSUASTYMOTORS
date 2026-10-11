@@ -28,6 +28,8 @@ jobs:
 
       - name: Preparar Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: platforms-tools
 
       - name: Instalar Capacitor
         run: npm install --no-audit --no-fund
